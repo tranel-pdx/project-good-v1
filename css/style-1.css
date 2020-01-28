@@ -1,7 +1,20 @@
+p {
+  font-family: 'Grenze', serif;
+  text-align: center;
+  margin: 120px;
+  font-size: 60px;
+  color: #ffffff;
+    }
+
+h1 {
+  font-family: 'Lato', sans-serif;
+    }
+
 .slide {
   width: 100vw;
   height: 100vh;
 }
+
 .wrapper {
   display: flex;
   flex-direction: row;
@@ -14,13 +27,16 @@
   background: #efdefe;
 }
 .two {
-  background: #a3f3d3;
+  background: #efdefe;
 }
 .three {
   background: #0bbaa0;
 }
 .four {
   background: #00dfdf;
+}
+.five {
+  background: #06ceed;
 }
 
 .outer-wrapper {
